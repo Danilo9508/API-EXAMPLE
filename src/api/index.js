@@ -2,8 +2,8 @@
 const express = require('express');
 const genericRoutes = express.Router();
 
-const user = require('./usuario');
+const user = require('./user');
 
-genericRoutes.use('/usuario', user);
+genericRoutes.use('/user', user);
 
 module.exports = genericRoutes;
